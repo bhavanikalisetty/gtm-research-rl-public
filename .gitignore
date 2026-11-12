@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+.env
+.env.*
+research/evaluation/artifacts/
+runs/

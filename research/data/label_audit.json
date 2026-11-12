@@ -1,0 +1,2299 @@
+{
+  "dataset_hash": "e386337f6dfef338963ab5a57d4ffc5b62e814fd8635aa1e2421d14eedd4f152",
+  "case_count": 60,
+  "label_counts": {
+    "qualified": 24,
+    "rejected": 24,
+    "unresolved": 12
+  },
+  "all_labels_reachable": true,
+  "independent_human_review": false,
+  "cases": [
+    {
+      "case_id": "c_69fb8ed022d5e27b",
+      "group_id": "g_888d1d855895bdd7",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_8f83ec0ca8e66d78",
+        "s_e462ca0de61c7ab9"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_8f83ec0ca8e66d78"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-11ac2a6e.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_2f6576a5483e1209",
+      "group_id": "g_c7d186a95f783a64",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_122385b1213ee177",
+        "s_c6adade7e8f0ea23"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_122385b1213ee177"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-38ad508f.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_d2b084a99e4f5df5",
+      "group_id": "g_cee795bd4150c4ae",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_038a045a4d73ec03",
+        "s_2f6456474b0fb567"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_038a045a4d73ec03"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-bf528b0a.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_70a9e856cf4a251e",
+      "group_id": "g_ff9c8b405440d4e5",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_deac6bebf51ad6ba",
+        "s_5cf2e8325eccaa51"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_deac6bebf51ad6ba"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-32e3f1bf.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_11c1fbcfae3a8509",
+      "group_id": "g_c880823d1d791299",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_68980e89b40742b5",
+        "s_bfa840a3fe9cc3ea"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_68980e89b40742b5"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-8b36dd89.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_5920dc89c84bfcee",
+      "group_id": "g_73ffa563df6a1f89",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_f465f91d4558705a",
+        "s_9054cff740b3fd96"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_f465f91d4558705a"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-48a260cf.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_bf3085d30abc6d07",
+      "group_id": "g_9629d45068263e6b",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_72d60fd4cb277888",
+        "s_42892044d78cdc1f",
+        "s_fce03edd4c5b3f48"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 3,
+        "simulated_cost_usd": 0.045,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_72d60fd4cb277888"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-74c273f0.example",
+              "person_name": "Morgan Patel"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-74c273f0.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_572f1ea0b937192b",
+      "group_id": "g_0836adaaaa09c7f9",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_c4b589e8ee8f1d4e",
+        "s_d8df59c62ea765ff",
+        "s_4ab9be9e1fcdc6a8"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 3,
+        "simulated_cost_usd": 0.045,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_c4b589e8ee8f1d4e"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-a499cddd.example",
+              "person_name": "Avery Chen"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-a499cddd.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_dee874449a4d7d69",
+      "group_id": "g_351c16d633aa584d",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_07a0492defe0a2eb",
+        "s_0f4de9e53c908c8c",
+        "s_ef07a61cd2c1b5d4"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 3,
+        "simulated_cost_usd": 0.045,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_07a0492defe0a2eb"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-84575445.example",
+              "person_name": "Taylor Ross"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-84575445.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_ccf0a8afa1f3d1bf",
+      "group_id": "g_6668e3f8fca348cd",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_921dff3ba7ab51d0",
+        "s_b08736cf436f6835",
+        "s_6c35412af48c7a19"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 3,
+        "simulated_cost_usd": 0.045,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_921dff3ba7ab51d0"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-e1273614.example",
+              "person_name": "Casey Silva"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-e1273614.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_44831561df9fcc44",
+      "group_id": "g_1f8e92da39fdb5c8",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_0b674f42509c7f0d",
+        "s_15160340f52e3982",
+        "s_7e77f2fc9c638972"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 3,
+        "simulated_cost_usd": 0.045,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_0b674f42509c7f0d"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-52ced56a.example",
+              "person_name": "Riley Park"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-52ced56a.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_839c8298ba2f705b",
+      "group_id": "g_e51b023a5f40b003",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_a295a9b997272dbb",
+        "s_4ca622b1acd240f6",
+        "s_9b60cdc90717b247"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 3,
+        "simulated_cost_usd": 0.045,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_a295a9b997272dbb"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-2de81f70.example",
+              "person_name": "Jordan Kim"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-2de81f70.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_6cf36fc4ba6bb78c",
+      "group_id": "g_8a5a06e1715cf242",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_479a3ec9745e8486",
+        "s_9a28e28f3b540c15",
+        "s_23d63140d5753e3b"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 4,
+        "simulated_cost_usd": 0.04,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_479a3ec9745e8486"
+            }
+          },
+          {
+            "action": "search",
+            "arguments": {
+              "query": "company-de23f3f9.example headquarters official"
+            }
+          },
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_9a28e28f3b540c15"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-de23f3f9.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.04
+    },
+    {
+      "case_id": "c_8e248a51165eaced",
+      "group_id": "g_7b1b41114b690dda",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_c8989e954812cc9c",
+        "s_a751de991372d2aa",
+        "s_26910eb86a9b6e96"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 4,
+        "simulated_cost_usd": 0.04,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_c8989e954812cc9c"
+            }
+          },
+          {
+            "action": "search",
+            "arguments": {
+              "query": "company-2fad082a.example headquarters official"
+            }
+          },
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_a751de991372d2aa"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-2fad082a.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.04
+    },
+    {
+      "case_id": "c_47f3bf795be04f60",
+      "group_id": "g_e48aeaaee1ae6888",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_f0dcd7f1b9d0d91e",
+        "s_613fe738a187e9e5",
+        "s_a2e8578c92d5cf63"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 4,
+        "simulated_cost_usd": 0.04,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_f0dcd7f1b9d0d91e"
+            }
+          },
+          {
+            "action": "search",
+            "arguments": {
+              "query": "company-7789b2dd.example headquarters official"
+            }
+          },
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_613fe738a187e9e5"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-7789b2dd.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.04
+    },
+    {
+      "case_id": "c_1abdc9caf2896536",
+      "group_id": "g_6bdc6263de8a6d95",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_363e20b882efdd92",
+        "s_436c8d4e900fe6c2",
+        "s_354966c27f80b004"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 4,
+        "simulated_cost_usd": 0.04,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_363e20b882efdd92"
+            }
+          },
+          {
+            "action": "search",
+            "arguments": {
+              "query": "company-2e98efa8.example headquarters official"
+            }
+          },
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_436c8d4e900fe6c2"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-2e98efa8.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.04
+    },
+    {
+      "case_id": "c_058e0592b3ac8de9",
+      "group_id": "g_8c2a57acd91a4812",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_499ee281d3be63af",
+        "s_1d7be44e1b5d1d0d",
+        "s_7ccf140a06dadecc"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 4,
+        "simulated_cost_usd": 0.04,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_499ee281d3be63af"
+            }
+          },
+          {
+            "action": "search",
+            "arguments": {
+              "query": "company-d6886fc5.example headquarters official"
+            }
+          },
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_1d7be44e1b5d1d0d"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-d6886fc5.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.04
+    },
+    {
+      "case_id": "c_664b6279f113423b",
+      "group_id": "g_19e1fc9bcd5ea63a",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "valid",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_b64ae49e2edb6f01",
+        "s_d7a0f243f9479d82",
+        "s_3b5b1900deed3ced"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 4,
+        "simulated_cost_usd": 0.04,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_b64ae49e2edb6f01"
+            }
+          },
+          {
+            "action": "search",
+            "arguments": {
+              "query": "company-0e2afa77.example headquarters official"
+            }
+          },
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_d7a0f243f9479d82"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-0e2afa77.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.04
+    },
+    {
+      "case_id": "c_487412340989581e",
+      "group_id": "g_e758adc6d90b11d2",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "catch_all",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_31fa482437e4d067",
+        "s_1bd9078d98c8dd75"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_31fa482437e4d067"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-47d69856.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_09698042f6ed0ac3",
+      "group_id": "g_40e2ebc0554beae3",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "catch_all",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_fc18dd1a422706e6",
+        "s_f9643d3cf9fc3711"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_fc18dd1a422706e6"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-9d0c9f77.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_7f62f8c428eb87f8",
+      "group_id": "g_8eae3f6f87b6b6af",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "catch_all",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_692b538430c4d71c",
+        "s_fd5ff5157915b0f9"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_692b538430c4d71c"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-11173397.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_05999b91550950fa",
+      "group_id": "g_e93c01a384c64acd",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "catch_all",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_5e0a143526d71edb",
+        "s_d0d8965bb5762c83"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_5e0a143526d71edb"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-7c148cd1.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_c2bfe25f64bb6ef5",
+      "group_id": "g_16fb9daacbabf27b",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "catch_all",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_85d22c1d10f49a09",
+        "s_3aa16a598bce89d5"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_85d22c1d10f49a09"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-3b05fa47.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_28740effaad8089d",
+      "group_id": "g_f9595cd7e5d8cd96",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "qualified",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "catch_all",
+        "employment_status": "current",
+        "industry": "B2B SaaS",
+        "region": "US"
+      },
+      "required_evidence_ids": [
+        "s_46048c05f10b9d8d",
+        "s_d471a3512cb4eec5"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_46048c05f10b9d8d"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-d4d21287.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_0c0caf8782596441",
+      "group_id": "g_ff0c1ebfd19c689b",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "industry": "Consumer retail"
+      },
+      "required_evidence_ids": [
+        "s_61357bdd844b6d46"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_61357bdd844b6d46"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_ad4a1a7a6f21b51d",
+      "group_id": "g_bb67ff3da0866f6d",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "industry": "Consumer retail"
+      },
+      "required_evidence_ids": [
+        "s_8a391922cebfa7b7"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_8a391922cebfa7b7"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_e9867e8fb1f98b66",
+      "group_id": "g_84bc9f7bd519d418",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "industry": "Consumer retail"
+      },
+      "required_evidence_ids": [
+        "s_5f0a6fd104809e30"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_5f0a6fd104809e30"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_8001c14436099450",
+      "group_id": "g_38c610c01467127c",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "industry": "Consumer retail"
+      },
+      "required_evidence_ids": [
+        "s_229de38a605f448b"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_229de38a605f448b"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_340c44312e402645",
+      "group_id": "g_6b08aaad341242f0",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "industry": "Consumer retail"
+      },
+      "required_evidence_ids": [
+        "s_6859801904a41515"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_6859801904a41515"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_04361fa5a2bc06c2",
+      "group_id": "g_8fe4b07c6e269464",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "industry": "Consumer retail"
+      },
+      "required_evidence_ids": [
+        "s_05bde04027fb6613"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_05bde04027fb6613"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_6ffbbd24e0b32abe",
+      "group_id": "g_ba05639d17f1ef71",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "region": "Germany"
+      },
+      "required_evidence_ids": [
+        "s_fc9cd80bdb50e388"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_fc9cd80bdb50e388"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_7350d66e5a940d55",
+      "group_id": "g_7c1b172d8ccbbdaa",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "region": "Germany"
+      },
+      "required_evidence_ids": [
+        "s_0af511259f912dd3"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_0af511259f912dd3"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_098a54ab2757dbb0",
+      "group_id": "g_7346431a76bb263b",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "region": "Germany"
+      },
+      "required_evidence_ids": [
+        "s_c3874a6907545e3a"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_c3874a6907545e3a"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_7f69e9652d95569c",
+      "group_id": "g_15fddeef7de46f6c",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "region": "Germany"
+      },
+      "required_evidence_ids": [
+        "s_f8ccfbcedd8fc2f5"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_f8ccfbcedd8fc2f5"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_e3e02c670664544c",
+      "group_id": "g_845d951931f19d64",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "region": "Germany"
+      },
+      "required_evidence_ids": [
+        "s_dc308ce31e23b012"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_dc308ce31e23b012"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_8a03109b5f7f2874",
+      "group_id": "g_7bd707b4d6c3f434",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "region": "Germany"
+      },
+      "required_evidence_ids": [
+        "s_8ad69474a99f0a42"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_8ad69474a99f0a42"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.01
+    },
+    {
+      "case_id": "c_ca5330bfc066ee89",
+      "group_id": "g_d7366048d47cdc44",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_status": "former"
+      },
+      "required_evidence_ids": [
+        "s_bebb2d60d28226ec"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_65778d328aa088a2"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-09cbaf95.example",
+              "person_name": "Riley Park"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.03
+    },
+    {
+      "case_id": "c_c6747700696f88e8",
+      "group_id": "g_ed5c604c02b4b9b6",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_status": "former"
+      },
+      "required_evidence_ids": [
+        "s_7948092ac10d5a9a"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_b529fca5ec027a1e"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-fc3fa311.example",
+              "person_name": "Taylor Ross"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.03
+    },
+    {
+      "case_id": "c_71a22b067cc0a01a",
+      "group_id": "g_5fafe996867e927e",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_status": "former"
+      },
+      "required_evidence_ids": [
+        "s_4f784acdda41a748"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_3c165e4dc6a1780f"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-5575e900.example",
+              "person_name": "Avery Chen"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.03
+    },
+    {
+      "case_id": "c_ad67e0243ea3e5b5",
+      "group_id": "g_32e4556c60aa387c",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_status": "former"
+      },
+      "required_evidence_ids": [
+        "s_14748ee3828082cc"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_fb2cf25d00e6ce16"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-f3ef5e8b.example",
+              "person_name": "Morgan Patel"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.03
+    },
+    {
+      "case_id": "c_0b9059d159a36761",
+      "group_id": "g_b6ef89cbbaf8f780",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_status": "former"
+      },
+      "required_evidence_ids": [
+        "s_d6d5e6a4ca67da78"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_2e7393a58d428fa5"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-2f8889e2.example",
+              "person_name": "Jordan Kim"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.03
+    },
+    {
+      "case_id": "c_597e66bedb462f5e",
+      "group_id": "g_c96d7935a3d456f4",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_status": "former"
+      },
+      "required_evidence_ids": [
+        "s_4c7708e3d6ec885e"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_a1b8612b36a0cf80"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-a20f8392.example",
+              "person_name": "Casey Silva"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.03
+    },
+    {
+      "case_id": "c_c70aafc089595fbe",
+      "group_id": "g_dc09a0fce4e1a3db",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "invalid"
+      },
+      "required_evidence_ids": [
+        "s_036e145c32ee1cc5"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_b50cc8eb731b4c77"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-a564ec60.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_4f0e13fc0d36f5dc",
+      "group_id": "g_7c912ddbcb4feb19",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "invalid"
+      },
+      "required_evidence_ids": [
+        "s_dbaf6fa19ce0564b"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_7af6117c8eca5d4c"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-b76bcbdb.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_707fb7b8cc8a2182",
+      "group_id": "g_ad56057893933088",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "invalid"
+      },
+      "required_evidence_ids": [
+        "s_7e8128dcbc3de111"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_d7c09b373336cbab"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-2f4f7ccb.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_48256563bacfb3d7",
+      "group_id": "g_3ee3b28591c0b264",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "invalid"
+      },
+      "required_evidence_ids": [
+        "s_500962260b073fa8"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_ca23089c338f439a"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-04222594.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_a378778398b00f0d",
+      "group_id": "g_ea74afedbbd87983",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "invalid"
+      },
+      "required_evidence_ids": [
+        "s_e09c6b7d43ddd5be"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_1d37b34c0442d584"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-9ad71207.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_18c7b2761ab5a462",
+      "group_id": "g_cdf5490d241abe3f",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "rejected",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "contact_status": "invalid"
+      },
+      "required_evidence_ids": [
+        "s_9f88c2a176aaa983"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.025,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_2ad0a725cfbf97ad"
+            }
+          },
+          {
+            "action": "verify_contact",
+            "arguments": {
+              "email": "research-buyer@company-066ce5e2.example"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_0fd4d24ec09f1bfe",
+      "group_id": "g_03bd4c9c885b9d97",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "source_status": "unavailable"
+      },
+      "required_evidence_ids": [
+        "s_c4f901ca7b9eaae6"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_c4f901ca7b9eaae6"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_465196016da95a79",
+      "group_id": "g_7073e01a2ba24bc0",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "source_status": "unavailable"
+      },
+      "required_evidence_ids": [
+        "s_56e153b2e88cd60c"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_56e153b2e88cd60c"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_218d94a16843d3f8",
+      "group_id": "g_f555f4e8f585db90",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "source_status": "unavailable"
+      },
+      "required_evidence_ids": [
+        "s_0bcecee48cbd85e1"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_0bcecee48cbd85e1"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_647c0da15b80c46d",
+      "group_id": "g_33dce3db5ab777db",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "source_status": "unavailable"
+      },
+      "required_evidence_ids": [
+        "s_574480f0d91b01bc"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_574480f0d91b01bc"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_2a3880b725a8e843",
+      "group_id": "g_5440437e732c0908",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "source_status": "unavailable"
+      },
+      "required_evidence_ids": [
+        "s_6faf684db8b0b243"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_6faf684db8b0b243"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_6db30a2744ae04a3",
+      "group_id": "g_42413d23bc9f6eb9",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "source_status": "unavailable"
+      },
+      "required_evidence_ids": [
+        "s_bee0b97d837edec9"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 1,
+        "simulated_cost_usd": 0.01,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_bee0b97d837edec9"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.025
+    },
+    {
+      "case_id": "c_58555a1d2e7cefaf",
+      "group_id": "g_505684491075c39f",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_verification": "conflicting"
+      },
+      "required_evidence_ids": [
+        "s_308e11438b9b677a"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_a9791b39df5ad229"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-6e34569b.example",
+              "person_name": "Casey Silva"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_b50363fa63c71207",
+      "group_id": "g_a68448fb3e3fe136",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_verification": "conflicting"
+      },
+      "required_evidence_ids": [
+        "s_6afd36a269f88255"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_06c9b721c7073047"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-ecb20de1.example",
+              "person_name": "Morgan Patel"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_df156b8445710305",
+      "group_id": "g_0a3c0cd1342a6b1b",
+      "split": "train",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_verification": "conflicting"
+      },
+      "required_evidence_ids": [
+        "s_cfd2b5d27b905392"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_676ef4560351ed65"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-150aa174.example",
+              "person_name": "Taylor Ross"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_b9efe8f1ed05b19f",
+      "group_id": "g_fabb3c690c900dd3",
+      "split": "validation",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_verification": "conflicting"
+      },
+      "required_evidence_ids": [
+        "s_9f96fc3350b024d6"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_48a20fd7c047665d"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-e0fb791e.example",
+              "person_name": "Jordan Kim"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_fbf384888984a665",
+      "group_id": "g_ab0208589c5710a1",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_verification": "conflicting"
+      },
+      "required_evidence_ids": [
+        "s_2b3bb1dec15a14f4"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_1243a3408784859d"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-e5a96def.example",
+              "person_name": "Riley Park"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    },
+    {
+      "case_id": "c_12e4b976c85509d2",
+      "group_id": "g_97341fbfc76d9f54",
+      "split": "test",
+      "provenance": "synthetic",
+      "label": "unresolved",
+      "audit_type": "programmatic reachability and exact structured field/citation support",
+      "independent_human_review": false,
+      "reachable_supported_label": true,
+      "reference_fields": {
+        "employment_verification": "conflicting"
+      },
+      "required_evidence_ids": [
+        "s_b2bf2e92dd990434"
+      ],
+      "minimum_simulated_cost_solution": {
+        "calls": 2,
+        "simulated_cost_usd": 0.03,
+        "path": [
+          {
+            "action": "inspect_source",
+            "arguments": {
+              "source_id": "s_5b9f32d1d674c738"
+            }
+          },
+          {
+            "action": "verify_person",
+            "arguments": {
+              "company_domain": "company-cd82cfdd.example",
+              "person_name": "Avery Chen"
+            }
+          }
+        ]
+      },
+      "baseline_supported": true,
+      "baseline_simulated_cost_usd": 0.045
+    }
+  ]
+}

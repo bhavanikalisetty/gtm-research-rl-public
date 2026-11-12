@@ -1,0 +1,17 @@
+{
+  "scenario_count": 60,
+  "group_count": 60,
+  "split_counts": {
+    "train": 36,
+    "validation": 12,
+    "test": 12
+  },
+  "disposition_counts": {
+    "qualified": 24,
+    "rejected": 24,
+    "unresolved": 12
+  },
+  "provenance": "synthetic",
+  "template_count": 10,
+  "limitations": "Six controlled variations per template. Template reuse across splits limits generalization claims. No production trajectories or real company labels are in this file."
+}

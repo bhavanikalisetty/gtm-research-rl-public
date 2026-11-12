@@ -1,0 +1,18 @@
+{
+  "dataset_hash": "e386337f6dfef338963ab5a57d4ffc5b62e814fd8635aa1e2421d14eedd4f152",
+  "prompt_version": "research-policy-v1",
+  "counts": {
+    "train": {
+      "examples": 121,
+      "trajectories": 36
+    },
+    "validation": {
+      "examples": 40,
+      "trajectories": 12
+    }
+  },
+  "loss": "assistant completion tokens only; prompt, observations and metadata masked",
+  "test_exported": false,
+  "teacher": "rules-v1",
+  "provenance": "synthetic"
+}

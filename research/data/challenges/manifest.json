@@ -1,0 +1,12 @@
+{
+  "case_count": 6,
+  "existing_group_count": 6,
+  "new_company_groups": 0,
+  "type": "synthetic duplicate-account variants",
+  "included_in_primary_training": false,
+  "split_counts": {
+    "train": 2,
+    "validation": 2,
+    "test": 2
+  }
+}

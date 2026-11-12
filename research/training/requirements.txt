@@ -1,0 +1,13 @@
+# Candidate pins, NOT GPU-validated until smoke writes runtime-lock.txt.
+# Compatible with the inspected Unsloth package bounds on 2026-10-30.
+torch==2.8.0
+torchvision==0.23.0
+transformers==5.17.0
+peft==0.21.2
+accelerate==1.15.0
+trl==1.15.0
+datasets==4.7.0
+safetensors>=0.8.0
+fastapi==0.141.1
+uvicorn==0.52.1
+httpx==0.28.1

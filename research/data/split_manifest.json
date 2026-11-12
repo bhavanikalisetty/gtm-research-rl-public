@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-30T19:30:00Z",
+  "method": "Company groups fixed before scenario generation; stratified deterministic allocation.",
+  "groups": [
+    {
+      "group_id": "g_888d1d855895bdd7",
+      "domain": "company-11ac2a6e.example",
+      "company_name": "Company 11AC2A6E",
+      "split": "train",
+      "fixture_kind": "easy_positive",
+      "replica": 2
+    },
+    {
+      "group_id": "g_c7d186a95f783a64",
+      "domain": "company-38ad508f.example",
+      "company_name": "Company 38AD508F",
+      "split": "train",
+      "fixture_kind": "easy_positive",
+      "replica": 0
+    },
+    {
+      "group_id": "g_cee795bd4150c4ae",
+      "domain": "company-bf528b0a.example",
+      "company_name": "Company BF528B0A",
+      "split": "train",
+      "fixture_kind": "easy_positive",
+      "replica": 3
+    },
+    {
+      "group_id": "g_ff9c8b405440d4e5",
+      "domain": "company-32e3f1bf.example",
+      "company_name": "Company 32E3F1BF",
+      "split": "train",
+      "fixture_kind": "easy_positive",
+      "replica": 5
+    },
+    {
+      "group_id": "g_c880823d1d791299",
+      "domain": "company-8b36dd89.example",
+      "company_name": "Company 8B36DD89",
+      "split": "validation",
+      "fixture_kind": "easy_positive",
+      "replica": 1
+    },
+    {
+      "group_id": "g_73ffa563df6a1f89",
+      "domain": "company-48a260cf.example",
+      "company_name": "Company 48A260CF",
+      "split": "test",
+      "fixture_kind": "easy_positive",
+      "replica": 4
+    },
+    {
+      "group_id": "g_9629d45068263e6b",
+      "domain": "company-74c273f0.example",
+      "company_name": "Company 74C273F0",
+      "split": "train",
+      "fixture_kind": "stale_employment",
+      "replica": 1
+    },
+    {
+      "group_id": "g_0836adaaaa09c7f9",
+      "domain": "company-a499cddd.example",
+      "company_name": "Company A499CDDD",
+      "split": "train",
+      "fixture_kind": "stale_employment",
+      "replica": 0
+    },
+    {
+      "group_id": "g_351c16d633aa584d",
+      "domain": "company-84575445.example",
+      "company_name": "Company 84575445",
+      "split": "train",
+      "fixture_kind": "stale_employment",
+      "replica": 3
+    },
+    {
+      "group_id": "g_6668e3f8fca348cd",
+      "domain": "company-e1273614.example",
+      "company_name": "Company E1273614",
+      "split": "train",
+      "fixture_kind": "stale_employment",
+      "replica": 4
+    },
+    {
+      "group_id": "g_1f8e92da39fdb5c8",
+      "domain": "company-52ced56a.example",
+      "company_name": "Company 52CED56A",
+      "split": "validation",
+      "fixture_kind": "stale_employment",
+      "replica": 5
+    },
+    {
+      "group_id": "g_e51b023a5f40b003",
+      "domain": "company-2de81f70.example",
+      "company_name": "Company 2DE81F70",
+      "split": "test",
+      "fixture_kind": "stale_employment",
+      "replica": 2
+    },
+    {
+      "group_id": "g_8a5a06e1715cf242",
+      "domain": "company-de23f3f9.example",
+      "company_name": "Company DE23F3F9",
+      "split": "train",
+      "fixture_kind": "conflicting_location",
+      "replica": 0
+    },
+    {
+      "group_id": "g_7b1b41114b690dda",
+      "domain": "company-2fad082a.example",
+      "company_name": "Company 2FAD082A",
+      "split": "train",
+      "fixture_kind": "conflicting_location",
+      "replica": 4
+    },
+    {
+      "group_id": "g_e48aeaaee1ae6888",
+      "domain": "company-7789b2dd.example",
+      "company_name": "Company 7789B2DD",
+      "split": "train",
+      "fixture_kind": "conflicting_location",
+      "replica": 3
+    },
+    {
+      "group_id": "g_6bdc6263de8a6d95",
+      "domain": "company-2e98efa8.example",
+      "company_name": "Company 2E98EFA8",
+      "split": "train",
+      "fixture_kind": "conflicting_location",
+      "replica": 1
+    },
+    {
+      "group_id": "g_8c2a57acd91a4812",
+      "domain": "company-d6886fc5.example",
+      "company_name": "Company D6886FC5",
+      "split": "validation",
+      "fixture_kind": "conflicting_location",
+      "replica": 5
+    },
+    {
+      "group_id": "g_19e1fc9bcd5ea63a",
+      "domain": "company-0e2afa77.example",
+      "company_name": "Company 0E2AFA77",
+      "split": "test",
+      "fixture_kind": "conflicting_location",
+      "replica": 2
+    },
+    {
+      "group_id": "g_e758adc6d90b11d2",
+      "domain": "company-47d69856.example",
+      "company_name": "Company 47D69856",
+      "split": "train",
+      "fixture_kind": "catch_all_allowed",
+      "replica": 1
+    },
+    {
+      "group_id": "g_40e2ebc0554beae3",
+      "domain": "company-9d0c9f77.example",
+      "company_name": "Company 9D0C9F77",
+      "split": "train",
+      "fixture_kind": "catch_all_allowed",
+      "replica": 5
+    },
+    {
+      "group_id": "g_8eae3f6f87b6b6af",
+      "domain": "company-11173397.example",
+      "company_name": "Company 11173397",
+      "split": "train",
+      "fixture_kind": "catch_all_allowed",
+      "replica": 2
+    },
+    {
+      "group_id": "g_e93c01a384c64acd",
+      "domain": "company-7c148cd1.example",
+      "company_name": "Company 7C148CD1",
+      "split": "train",
+      "fixture_kind": "catch_all_allowed",
+      "replica": 4
+    },
+    {
+      "group_id": "g_16fb9daacbabf27b",
+      "domain": "company-3b05fa47.example",
+      "company_name": "Company 3B05FA47",
+      "split": "validation",
+      "fixture_kind": "catch_all_allowed",
+      "replica": 0
+    },
+    {
+      "group_id": "g_f9595cd7e5d8cd96",
+      "domain": "company-d4d21287.example",
+      "company_name": "Company D4D21287",
+      "split": "test",
+      "fixture_kind": "catch_all_allowed",
+      "replica": 3
+    },
+    {
+      "group_id": "g_ff0c1ebfd19c689b",
+      "domain": "company-b208b0f1.example",
+      "company_name": "Company B208B0F1",
+      "split": "train",
+      "fixture_kind": "excluded_industry",
+      "replica": 3
+    },
+    {
+      "group_id": "g_bb67ff3da0866f6d",
+      "domain": "company-0f026b03.example",
+      "company_name": "Company 0F026B03",
+      "split": "train",
+      "fixture_kind": "excluded_industry",
+      "replica": 1
+    },
+    {
+      "group_id": "g_84bc9f7bd519d418",
+      "domain": "company-627bb369.example",
+      "company_name": "Company 627BB369",
+      "split": "train",
+      "fixture_kind": "excluded_industry",
+      "replica": 0
+    },
+    {
+      "group_id": "g_38c610c01467127c",
+      "domain": "company-852e7a77.example",
+      "company_name": "Company 852E7A77",
+      "split": "train",
+      "fixture_kind": "excluded_industry",
+      "replica": 2
+    },
+    {
+      "group_id": "g_6b08aaad341242f0",
+      "domain": "company-67bf2f40.example",
+      "company_name": "Company 67BF2F40",
+      "split": "validation",
+      "fixture_kind": "excluded_industry",
+      "replica": 5
+    },
+    {
+      "group_id": "g_8fe4b07c6e269464",
+      "domain": "company-edbedcfd.example",
+      "company_name": "Company EDBEDCFD",
+      "split": "test",
+      "fixture_kind": "excluded_industry",
+      "replica": 4
+    },
+    {
+      "group_id": "g_ba05639d17f1ef71",
+      "domain": "company-a634ef4b.example",
+      "company_name": "Company A634EF4B",
+      "split": "train",
+      "fixture_kind": "excluded_region",
+      "replica": 3
+    },
+    {
+      "group_id": "g_7c1b172d8ccbbdaa",
+      "domain": "company-25e59a05.example",
+      "company_name": "Company 25E59A05",
+      "split": "train",
+      "fixture_kind": "excluded_region",
+      "replica": 5
+    },
+    {
+      "group_id": "g_7346431a76bb263b",
+      "domain": "company-92350a05.example",
+      "company_name": "Company 92350A05",
+      "split": "train",
+      "fixture_kind": "excluded_region",
+      "replica": 1
+    },
+    {
+      "group_id": "g_15fddeef7de46f6c",
+      "domain": "company-5b6b3c7e.example",
+      "company_name": "Company 5B6B3C7E",
+      "split": "train",
+      "fixture_kind": "excluded_region",
+      "replica": 0
+    },
+    {
+      "group_id": "g_845d951931f19d64",
+      "domain": "company-8718328f.example",
+      "company_name": "Company 8718328F",
+      "split": "validation",
+      "fixture_kind": "excluded_region",
+      "replica": 2
+    },
+    {
+      "group_id": "g_7bd707b4d6c3f434",
+      "domain": "company-83520fb3.example",
+      "company_name": "Company 83520FB3",
+      "split": "test",
+      "fixture_kind": "excluded_region",
+      "replica": 4
+    },
+    {
+      "group_id": "g_d7366048d47cdc44",
+      "domain": "company-09cbaf95.example",
+      "company_name": "Company 09CBAF95",
+      "split": "train",
+      "fixture_kind": "former_employee",
+      "replica": 5
+    },
+    {
+      "group_id": "g_ed5c604c02b4b9b6",
+      "domain": "company-fc3fa311.example",
+      "company_name": "Company FC3FA311",
+      "split": "train",
+      "fixture_kind": "former_employee",
+      "replica": 3
+    },
+    {
+      "group_id": "g_5fafe996867e927e",
+      "domain": "company-5575e900.example",
+      "company_name": "Company 5575E900",
+      "split": "train",
+      "fixture_kind": "former_employee",
+      "replica": 0
+    },
+    {
+      "group_id": "g_32e4556c60aa387c",
+      "domain": "company-f3ef5e8b.example",
+      "company_name": "Company F3EF5E8B",
+      "split": "validation",
+      "fixture_kind": "former_employee",
+      "replica": 1
+    },
+    {
+      "group_id": "g_b6ef89cbbaf8f780",
+      "domain": "company-2f8889e2.example",
+      "company_name": "Company 2F8889E2",
+      "split": "validation",
+      "fixture_kind": "former_employee",
+      "replica": 2
+    },
+    {
+      "group_id": "g_c96d7935a3d456f4",
+      "domain": "company-a20f8392.example",
+      "company_name": "Company A20F8392",
+      "split": "test",
+      "fixture_kind": "former_employee",
+      "replica": 4
+    },
+    {
+      "group_id": "g_dc09a0fce4e1a3db",
+      "domain": "company-a564ec60.example",
+      "company_name": "Company A564EC60",
+      "split": "train",
+      "fixture_kind": "invalid_contact",
+      "replica": 4
+    },
+    {
+      "group_id": "g_7c912ddbcb4feb19",
+      "domain": "company-b76bcbdb.example",
+      "company_name": "Company B76BCBDB",
+      "split": "train",
+      "fixture_kind": "invalid_contact",
+      "replica": 1
+    },
+    {
+      "group_id": "g_ad56057893933088",
+      "domain": "company-2f4f7ccb.example",
+      "company_name": "Company 2F4F7CCB",
+      "split": "train",
+      "fixture_kind": "invalid_contact",
+      "replica": 5
+    },
+    {
+      "group_id": "g_3ee3b28591c0b264",
+      "domain": "company-04222594.example",
+      "company_name": "Company 04222594",
+      "split": "validation",
+      "fixture_kind": "invalid_contact",
+      "replica": 0
+    },
+    {
+      "group_id": "g_ea74afedbbd87983",
+      "domain": "company-9ad71207.example",
+      "company_name": "Company 9AD71207",
+      "split": "validation",
+      "fixture_kind": "invalid_contact",
+      "replica": 2
+    },
+    {
+      "group_id": "g_cdf5490d241abe3f",
+      "domain": "company-066ce5e2.example",
+      "company_name": "Company 066CE5E2",
+      "split": "test",
+      "fixture_kind": "invalid_contact",
+      "replica": 3
+    },
+    {
+      "group_id": "g_03bd4c9c885b9d97",
+      "domain": "company-b270a56b.example",
+      "company_name": "Company B270A56B",
+      "split": "train",
+      "fixture_kind": "unavailable_source",
+      "replica": 3
+    },
+    {
+      "group_id": "g_7073e01a2ba24bc0",
+      "domain": "company-f51055c0.example",
+      "company_name": "Company F51055C0",
+      "split": "train",
+      "fixture_kind": "unavailable_source",
+      "replica": 1
+    },
+    {
+      "group_id": "g_f555f4e8f585db90",
+      "domain": "company-ef6b7e65.example",
+      "company_name": "Company EF6B7E65",
+      "split": "train",
+      "fixture_kind": "unavailable_source",
+      "replica": 0
+    },
+    {
+      "group_id": "g_33dce3db5ab777db",
+      "domain": "company-e71ae9c8.example",
+      "company_name": "Company E71AE9C8",
+      "split": "validation",
+      "fixture_kind": "unavailable_source",
+      "replica": 2
+    },
+    {
+      "group_id": "g_5440437e732c0908",
+      "domain": "company-4f0bba6f.example",
+      "company_name": "Company 4F0BBA6F",
+      "split": "test",
+      "fixture_kind": "unavailable_source",
+      "replica": 4
+    },
+    {
+      "group_id": "g_42413d23bc9f6eb9",
+      "domain": "company-3c253ea4.example",
+      "company_name": "Company 3C253EA4",
+      "split": "test",
+      "fixture_kind": "unavailable_source",
+      "replica": 5
+    },
+    {
+      "group_id": "g_505684491075c39f",
+      "domain": "company-6e34569b.example",
+      "company_name": "Company 6E34569B",
+      "split": "train",
+      "fixture_kind": "conflicting_employment",
+      "replica": 4
+    },
+    {
+      "group_id": "g_a68448fb3e3fe136",
+      "domain": "company-ecb20de1.example",
+      "company_name": "Company ECB20DE1",
+      "split": "train",
+      "fixture_kind": "conflicting_employment",
+      "replica": 1
+    },
+    {
+      "group_id": "g_0a3c0cd1342a6b1b",
+      "domain": "company-150aa174.example",
+      "company_name": "Company 150AA174",
+      "split": "train",
+      "fixture_kind": "conflicting_employment",
+      "replica": 3
+    },
+    {
+      "group_id": "g_fabb3c690c900dd3",
+      "domain": "company-e0fb791e.example",
+      "company_name": "Company E0FB791E",
+      "split": "validation",
+      "fixture_kind": "conflicting_employment",
+      "replica": 2
+    },
+    {
+      "group_id": "g_ab0208589c5710a1",
+      "domain": "company-e5a96def.example",
+      "company_name": "Company E5A96DEF",
+      "split": "test",
+      "fixture_kind": "conflicting_employment",
+      "replica": 5
+    },
+    {
+      "group_id": "g_97341fbfc76d9f54",
+      "domain": "company-cd82cfdd.example",
+      "company_name": "Company CD82CFDD",
+      "split": "test",
+      "fixture_kind": "conflicting_employment",
+      "replica": 0
+    }
+  ]
+}

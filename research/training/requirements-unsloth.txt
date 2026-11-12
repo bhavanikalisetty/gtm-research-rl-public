@@ -1,0 +1,4 @@
+-r requirements.txt
+unsloth==2026.10.11
+unsloth_zoo==2026.10.11
+xformers==0.0.32.post2
